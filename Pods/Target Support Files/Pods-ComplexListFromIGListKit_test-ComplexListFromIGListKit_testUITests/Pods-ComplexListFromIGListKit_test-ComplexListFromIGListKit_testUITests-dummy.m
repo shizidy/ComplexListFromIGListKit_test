@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ComplexListFromIGListKit_test_ComplexListFromIGListKit_testUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ComplexListFromIGListKit_test_ComplexListFromIGListKit_testUITests
+@end
