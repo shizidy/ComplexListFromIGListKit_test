@@ -6,6 +6,7 @@ PODS:
   - Masonry (1.1.0)
   - MJExtension (3.2.1)
   - ReactiveObjC (3.1.1)
+  - WDYCategoryKit (0.1.0)
 
 DEPENDENCIES:
   - IGListKit
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - Masonry
   - MJExtension
   - ReactiveObjC
+  - WDYCategoryKit (from `https://github.com/shizidy/WDYCategoryKit.git`)
 
 SPEC REPOS:
   trunk:
@@ -23,6 +25,15 @@ SPEC REPOS:
     - MJExtension
     - ReactiveObjC
 
+EXTERNAL SOURCES:
+  WDYCategoryKit:
+    :git: https://github.com/shizidy/WDYCategoryKit.git
+
+CHECKOUT OPTIONS:
+  WDYCategoryKit:
+    :commit: 539651ba948217433a24fc15568871640ee150e8
+    :git: https://github.com/shizidy/WDYCategoryKit.git
+
 SPEC CHECKSUMS:
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
@@ -30,7 +41,8 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  WDYCategoryKit: 04d178c9261bb3e014555c74a82ea26b8833499b
 
-PODFILE CHECKSUM: fcc116cd9b8b08b4307bb527a49cceaa2b66439b
+PODFILE CHECKSUM: 38978e3c34a99fa8429ef14e6891fc916ab2eebf
 
 COCOAPODS: 1.9.2

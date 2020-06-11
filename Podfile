@@ -8,6 +8,7 @@ pod 'MJExtension'
 pod 'Masonry'
 pod 'IGListKit'
 pod 'IQKeyboardManager'
+pod 'WDYCategoryKit', :git => 'https://github.com/shizidy/WDYCategoryKit.git'  # 私有库
 
   # Pods for ComplexListFromIGListKit_test
 
